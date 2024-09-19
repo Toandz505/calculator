@@ -19,7 +19,13 @@
             }
             base.Dispose(disposing);
         }
-
+        private void btnTest_Click(object sender, EventArgs e)
+        {
+            int a =5;
+           int b =6;
+       
+          Console.WriteLine(a + b);
+        }
         #region Windows Form Designer generated code
 
         /// <summary>
