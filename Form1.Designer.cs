@@ -30,7 +30,10 @@
         {
             button1 = new Button();
             textBox1 = new TextBox();
+<<<<<<< HEAD
             textBox2 = new TextBox();
+=======
+>>>>>>> future-cal
             SuspendLayout();
             // 
             // button1
@@ -44,11 +47,16 @@
             // 
             // textBox1
             // 
+<<<<<<< HEAD
             textBox1.Location = new Point(404, 44);
+=======
+            textBox1.Location = new Point(460, 60);
+>>>>>>> future-cal
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(125, 27);
             textBox1.TabIndex = 1;
             // 
+<<<<<<< HEAD
             // textBox2
             // 
             textBox2.Location = new Point(420, 187);
@@ -56,12 +64,17 @@
             textBox2.Size = new Size(125, 27);
             textBox2.TabIndex = 2;
             // 
+=======
+>>>>>>> future-cal
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+<<<<<<< HEAD
             Controls.Add(textBox2);
+=======
+>>>>>>> future-cal
             Controls.Add(textBox1);
             Controls.Add(button1);
             Name = "Form1";
@@ -74,6 +87,9 @@
 
         private Button button1;
         private TextBox textBox1;
+<<<<<<< HEAD
         private TextBox textBox2;
+=======
+>>>>>>> future-cal
     }
 }
